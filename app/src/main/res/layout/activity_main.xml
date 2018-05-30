@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_menu_bg"
+    tools:context=".MainActivity">
+
+    <com.xuan.qqslidingmenu.QqSlidingMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <include layout="@layout/include_menu"/>
+
+            <include layout="@layout/include_content"/>
+
+
+        </LinearLayout>
+
+    </com.xuan.qqslidingmenu.QqSlidingMenu>
+
+</android.support.constraint.ConstraintLayout>
